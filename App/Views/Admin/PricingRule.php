@@ -14,7 +14,7 @@ class PricingRule
         global $post;
 
         $post_id = $post->ID;
-        var_dump($post_id);
+       // var_dump($post_id);
 
         $measure_ranges = isset($product_data['wwbp_pricing_rule'][0]) ? unserialize($product_data['wwbp_pricing_rule'][0]) : '';
 
